@@ -43,7 +43,7 @@ const (
 	EfiFs              = "vfat"
 	Btrfs              = "btrfs"
 	BiosFs             = ""
-	MinPartSize        = uint(64)
+	MinPartSize        = uint(256)
 	EfiSize            = MinPartSize
 	OEMSize            = MinPartSize
 	StateSize          = uint(8192)
